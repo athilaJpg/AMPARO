@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AMPARO - Registrar denúncia</title>
+</head>
+
+<body>
+
+<h1>Registrar denúncia</h1>
+
+<form action="salvar_denuncia.php" method="POST">
+
+<label>Tipo de violência:</label>
+<br>
+
+<select name="tipo">
+<option>Bullying/Cyberbullying</option>
+<option>Racismo</option>
+<option>Assédio</option>
+<option>Discriminação</option>
+<option>Agressão</option>
+</select>
+
+<br><br>
+
+<label>Descreva o ocorrido:</label>
+<br>
+
+<textarea name="descricao" rows="6" cols="50"></textarea>
+
+<br><br>
+
+<button type="submit">Enviar denúncia</button>
+
+</form>
+
+</body>
+</html>
