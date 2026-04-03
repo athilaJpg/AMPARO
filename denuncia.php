@@ -26,14 +26,14 @@
 
 <br><br>
 
-<label>Descreva o ocorrido:</label>
+<label>Descreva com suas palavras o ocorrido:</label>
 <br>
 
 <textarea name="descricao" rows="6" cols="50"></textarea>
 
 <br><br>
 
-<button type="submit">Enviar denúncia</button>
+<button type="submit">Enviar esta denúncia</button>
 
 </form>
 
