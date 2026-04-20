@@ -11,5 +11,8 @@ alert("Email válido!");
 alert("Use seu email institucional @ifsp.edu.br");
 
 }
+function confirmarEnvio(){
+    return confirm("Tem certeza que deseja enviar esta denúncia? Informações falsas podem gerar consequências.");
+}
 
 }

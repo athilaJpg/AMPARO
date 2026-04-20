@@ -68,31 +68,27 @@ margin-right: auto;
 
 <div class="card">
 <h2>Dentro do IFSP campus Campinas:</h2>
-<p>
-    1. CAE (Coordenadoria de Apoio ao Ensino): 
 
-    Para buscar ajuda na CAE, você pode ir até a sala XXX e falar com os profissionais sobre o seu problema e conseguir o apoio nescessário! 
+    <p>1. CAE (Coordenadoria de Apoio ao Ensino):</p>
+
+    <p>Para buscar ajuda na CAE, você pode ir até a sala XXX e falar com os profissionais sobre o seu problema e conseguir o apoio nescessário!</p>
     
-    Para os tímidos, temos o email da CAE! 
+    <p>Para os tímidos, temos o email da CAE! </p>
 
-    Fale com Marlete Santiago Coutinho no email: cae.cmp@ifsp.edu.br
-</p>
+    <p>Fale com Marlete Santiago Coutinho no email: cae.cmp@ifsp.edu.br</p>
 
-<p>
-    2. DAE (Diretoria Adjunta Educacional):
+    <p>2. DAE (Diretoria Adjunta Educacional):</p>
 
-    Para buscar ajuda na DAE, vá até a sala XXX e fale com Felipe Marques Pires, responsável por ajudá-lo da melhor forma possivel.
+    <p>Para buscar ajuda na DAE, vá até a sala XXX e fale com Felipe Marques Pires, responsável por ajudá-lo da melhor forma possivel.</p>
 
-    Caso não queira ir até lá, manda um email! 	
+    <p>Caso não queira ir até lá, manda um email!</p>
    
-    Email: dae.cmp@ifsp.edu.br e fale com Felipe Marques Pires.
-</p>
+    <p>Email: dae.cmp@ifsp.edu.br e fale com Felipe Marques Pires.</p>
 
-<p>
-    3. Sociopedagógico do IFSP:
+    <p>3. Sociopedagógico do IFSP:</p>
 
-    Você pode ir até a sala XXX onde fica localizado o sociopedagógico do nosso campus e buscar a ajuda nescessária!!
-</p>
+    <p>Você pode ir até a sala XXX onde fica localizado o sociopedagógico do nosso campus e buscar a ajuda nescessária!!</p>
+
 </div>
 
 <div class="card">
@@ -102,10 +98,10 @@ margin-right: auto;
 <p>100 - Disque Direitos Humanos: Denúncias de violações de direitos humanos, como violência contra crianças, idosos e minorias, encaminhando aos órgãos competentes em 24h.</p>
 <p>190 - Polícia Militar: Emergências policiais em andamento.</p>
 <p>Web Denúncia (SP): Serviço online para registrar denúncias de forma anônima e segura no estado de São Paulo.</p>
-<p>Para situações de violência doméstica, também é possível usar o WhatsApp do 180: (61) 9610-0180. No estado de São Paulo, o Web Denúncia permite acompanhar a denúncia por senha.</p>
+<p>No estado de São Paulo, o Web Denúncia permite acompanhar a denúncia por senha.</p>
 </div>
 
-<a class="voltar" href="index.php">Voltar ao início</a>
+<a class="voltar" href="index.html">Voltar ao início</a>
 
 </div>
 
