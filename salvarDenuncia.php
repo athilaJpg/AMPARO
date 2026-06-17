@@ -18,7 +18,22 @@ $sql = "INSERT INTO denuncias (tipo, descricao, data, turma, email)
 VALUES ('$tipo', '$descricao', NOW(), '$turma', '$email_censurado')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Denúncia enviada com sucesso.";
+    echo "<!DOCTYPE html>\n";
+    echo "<html>\n";
+    echo "<head>\n";
+    echo "<meta charset=\"UTF-8\">\n";
+    echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";
+    echo "<link rel=\"stylesheet\" href=\"style.css\">\n";
+    echo "<title>Denúncia enviada</title>\n";
+    echo "</head>\n";
+    echo "<body>\n";
+    echo "<div class=\"container\">\n";
+    echo "<h1>Denúncia enviada com sucesso.</h1>\n";
+    echo "<p>Sua denúncia foi registrada com sucesso.</p>\n";
+    echo "<button class=\"botao\" onclick=\"window.location.href='index.html'\">Voltar para início</button>\n";
+    echo "</div>\n";
+    echo "</body>\n";
+    echo "</html>\n";
 } else {
     echo "Erro ao enviar denúncia.";
 }
