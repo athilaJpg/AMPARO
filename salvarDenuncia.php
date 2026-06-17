@@ -1,12 +1,17 @@
 <?php
-session_start(); 
-$email = $_SESSION['email']; //aqui pega o email
-//aqui censura o email
-$email_censurado = substr($email, 0, 3) . "****@" . explode("@", $email)[1];
+session_start();
+$email = isset($_SESSION['email']) ? $_SESSION['email'] : '';
+$email_censurado = 'não informado';
+if ($email !== '') {
+    $partes = explode('@', $email);
+    if (count($partes) === 2) {
+        $email_censurado = substr($email, 0, 3) . '****@' . $partes[1];
+    }
+}
 
-$tipo = $_POST['tipo'];
-$descricao = $_POST['descricao'];
-$turma = $_POST['turma'];
+$tipo = isset($_POST['tipo']) ? $_POST['tipo'] : '';
+$descricao = isset($_POST['descricao']) ? $_POST['descricao'] : '';
+$turma = isset($_POST['turma']) ? $_POST['turma'] : '';
 
 $conn = new mysqli("localhost", "root", "", "amparo");
 

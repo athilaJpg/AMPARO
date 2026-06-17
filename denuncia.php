@@ -20,7 +20,7 @@ if(!isset($_SESSION['email'])){
 
 <h1>Registrar denúncia</h1>
 
-<form action="http://localhost/amparo/salvarDenuncia.php" method="POST">
+<form action="salvarDenuncia.php" method="POST">
 
 <label>Qual tipo de violencia você sofreu?</label>
 <br>
