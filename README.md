@@ -1,4 +1,4 @@
-AMPARO - Sistema Web De Denúncias Anônimas Para Os Estudantes Do IFSP Câmpus Campinas
+# AMPARO - Sistema Web De Denúncias Anônimas Para Os Estudantes Do IFSP Câmpus Campinas
 
 <img width="1881" height="900" alt="foto tela principal amparo (index html)" src="https://github.com/user-attachments/assets/25367da0-d004-4f23-b050-d5979e8cd641" />
 
