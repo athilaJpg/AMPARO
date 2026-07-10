@@ -1,15 +1,27 @@
 AMPARO - Sistema Web De Denúncias Anônimas Para Os Estudantes Do IFSP Câmpus Campinas
 
+<img width="1881" height="900" alt="foto tela principal amparo (index html)" src="https://github.com/user-attachments/assets/25367da0-d004-4f23-b050-d5979e8cd641" />
+
+TECNOLOGIAS UTILIZADAS:
+
+- HTML 
+- CSS
+- PHP 
+- MySQL 
+- XAMPP 
+- Visual Studio Code
+
+
 INTRODUÇÃO
 
 Amparo: ato ou efeito de amparar(-se), de escorar(-se); amparamento, sustentação, apoio;
 pessoa ou algo que ampara, que ajuda ou socorre, que presta auxílio; apoio, arrimo, escora, socorro.
 
-A escola é um dos lugares mais importantes da vida de uma pessoa, pois desempenha um papel fundamental na formação acadêmica e social do estudante. No entanto, ao crescer e aprender sobre o mundo e as diferenças, os alunos são expostos a problemas como bullying, racismo, assédio, violência e outras formas de discriminação, impactando diretamente o bem-estar e a convivência entre os alunos pois, Segundo o Ministério da Educação (2026) em estudos recentes como Diagnóstico Participativo da Violência nas Escolas, realizado pela Faculdade Latino-Americana de Ciências Sociais (FLACSO) em 2015, com apoio do MEC, que revelou que 69,7% dos estudantes declaram ter presenciado alguma situação de violência dentro da escola. Muitas dessas situações não são relatadas ou tratadas da forma correta, por fatores como o medo da denúncia, o desconhecimento de como buscar ajuda e a falta de um canal seguro para falar sobre a situação. E para ajudar a combater esse problema, especialistas em um artigo para a CNN Saúde (2023) sugerem medidas como o estabelecimento de um canal de denúncias, a realização de ações educativas e a aplicação de sanções disciplinares, além da capacitação dos professores e demais funcionários da escola. Nesse sentido, torna-se necessário criar meios que possibilitem aos estudantes expressarem suas experiências de forma segura e acessível. Diante dessa realidade, este trabalho tem como objetivo desenvolver um sistema web voltado para o registro anônimo de denúncias relacionadas a situações de violência no ambiente escolar. Além disso, o sistema busca oferecer informações educativas sobre os diferentes tipos de violência e orientar os estudantes sobre como buscar ajuda dentro e fora do IFSP câmpus Campinas. Para a realização deste estudo, adotou-se uma abordagem metodológica de natureza qualitativa e quantitativa, com caráter descritivo e explicativo, por meio da análise de dados obtidos em pesquisas e questionários aplicados aos alunos, bem como pelo desenvolvimento de um protótipo funcional utilizando tecnologias web. Dessa forma, espera-se que o sistema contribua para a melhoria da convivência no ambiente escolar, promovendo um espaço mais seguro, acolhedor, consciente e aberto às necessidades dos alunos do IFSP câmpus Campinas.
+O AMPARO é um sistema web desenvolvido como Trabalho de Conclusão de Curso (TCC) no Instituto Federal de São Paulo (IFSP – Campus Campinas). O projeto foi criado com o objetivo de oferecer aos estudantes um canal seguro para o registro de denúncias relacionadas a situações de violência no ambiente escolar, além de disponibilizar informações educativas e orientações sobre como buscar ajuda.
 
+MOTIVAÇÃO:
 
-O sistema foi criado para ajudar a promover um ambiente mais seguro dentro do campus, permitindo que alunos relatem situações de violência ou problemas de forma anônima e segura.
-Muitas vezes, alunos não denunciam por medo ou insegurança, então a ideia é proteger a identidade do denunciante.
+Segundo o Ministério da Educação (2026) em estudos recentes como Diagnóstico Participativo da Violência nas Escolas, realizado pela Faculdade Latino-Americana de Ciências Sociais (FLACSO) em 2015, com apoio do MEC, que revelou que 69,7% dos estudantes declaram ter presenciado alguma situação de violência dentro da escola. Muitas dessas situações não são relatadas ou tratadas da forma correta, por fatores como o medo da denúncia, o desconhecimento de como buscar ajuda e a falta de um canal seguro para falar sobre a situação. E para ajudar a combater esse problema, especialistas em um artigo para a CNN Saúde (2023) sugerem medidas como o estabelecimento de um canal de denúncias, a realização de ações educativas e a aplicação de sanções disciplinares, além da capacitação dos professores e demais funcionários da escola. 
 
 O QUE É:
 
@@ -25,29 +37,30 @@ FUNCIONALIDADES DESENVOLVIDAS:
 - Página de login com E-mail institucional e senha,
 - Campo de visualização “Minhas denúncias”.
 
-TECNOLOGIAS UTILIZADAS:
+ARQUITETURA DO SISTEMA:
 
-- HTML (Para os códigos web),
-- CSS (Para estilização da página),
-- PHP (para processar os dados do formulário e realizar a integração com o banco de dados),
-- MySQL (utilizado para armazenar as denúncias enviadas pelos usuários),
-- XAMPP (Banco de dados),
-- Visual Studio Code (Para desenvolver, editar e organizar os arquivos do projeto).
+Front-end
 
-DESENVOLVIMENTO:
+HTML
 
-O sistema AMPARO foi desenvolvido com o objetivo de oferecer um canal seguro e acessível para o registro de denúncias anônimas relacionadas a situações de violência no IFSP câmpus Campinas. 
+CSS
 
-A proposta do sistema é permitir que estudantes relatem ocorrências de forma simples descrevendo o fato com suas palavras, além de fornecer informações educativas sobre os diferentes tipos de violência para que o aluno conheça e se informe sobre eles e se oriente sobre como buscar ajuda dentro e fora do câmpus. 
-O desenvolvimento do sistema foi realizado com foco na simplicidade, acessibilidade e funcionalidade, buscando atender às necessidades dos usuários de forma clara e objetiva.
+JavaScript
 
-Foi utilizado no desenvolvimento do sistema para a criação de estruturas de páginas web a linguagem de marcação de hipertexto HTML que utiliza tags para definir elementos como títulos, parágrafos, imagens, links e botões organizando o conteúdo que os navegadores exibem nas páginas. A página utilizou a linguagem de estilização CSS e se tornou interativa com JavaScript para a validação dos formulários . 
+↓
 
-Também foi utilizado a linguagem de script open-source PHP no desenvolvimento web do site, pois ele processa os dados que vem do formulário de denúncia do site e realiza a integração com o banco de dados por meio do mysql gravando elas lá.
-Foi utilizado a ferramenta MYSQL onde ficam armazenadas as denúncias do sistema.
-Foi utilizada a ferramenta XAMPP que serviu como servidor local para a execução do sistema.
+PHP
 
-ESTRUTURA DO SISTEMA:
+↓
+
+MySQL
+
+↓
+
+XAMPP
+
+
+DEMONSTRAÇÃO: 
 
 O sistema AMPARO foi estruturado em diferentes páginas, cada uma com uma função específica. A página inicial apresenta as principais funcionalidades do sistema, permitindo ao usuário acessar todas as funcionalidades do sistema por meio dela. 
 
@@ -70,6 +83,7 @@ O sistema possui tela onde o aluno pode se informar sobre os tipos de violência
 
 
 O sistema possui tela onde o aluno se informa onde buscar ajuda dentro e fora do campus.
+
 <img width="1283" height="867" alt="tela onde buscar ajuda dentro do IF amparo(ajuda php)" src="https://github.com/user-attachments/assets/3b5a4e97-ca80-42a6-8d90-d672fc982566" />
 
 <img width="1367" height="852" alt="foto tela onde buscar ajuda fora do IF (ajuda php)" src="https://github.com/user-attachments/assets/8c4afce6-1fa4-4b92-8c50-db869745630e" />
@@ -77,6 +91,10 @@ O sistema possui tela onde o aluno se informa onde buscar ajuda dentro e fora do
 O sistema armazena as denúncias feitas no campo “Minhas denúncias” onde o aluno pode ver as denúncias feitas por ele.
 
 <img width="1442" height="452" alt="tela minhas denuncias amparo " src="https://github.com/user-attachments/assets/57e2ca33-49ec-493d-a80e-1b154c4c639d" />
+
+Durante os testes, não foi possivel ultilizar diretamente no celular. Mas, usando um aplicativo de espelhamento, tive esse resultado em um celular simulando o uso do amparo: 
+
+https://github.com/user-attachments/assets/3841c8ea-f6f5-49ab-b616-a57c41bb4845
 
 
 
@@ -94,9 +112,19 @@ Além de páginas informativas sobre as violências, como buscar ajuda e um camp
 
 Dessa forma, o sistema busca promover um ambiente escolar mais seguro, incentivando a comunicação e o combate a situações de violência.
 
+APRENDIZADOS:
+
+Durante o desenvolvimento deste projeto pude aprofundar conhecimentos em:
+
+- Desenvolvimento Full Stack;
+- Estruturação de banco de dados MySQL;
+- Integração entre PHP e banco de dados;
+- Autenticação de usuários;
+- Organização de projetos web;
+- Desenvolvimento de interfaces utilizando HTML, CSS e JavaScript.
 
 
-O AMPARO contribui para um ambiente mais seguro, permitindo denúncias anônimas e acesso à informação.
-Como melhorias futuras, o sistema pode evoluir com novas funcionalidades e expansão do suporte.
+<p> O AMPARO contribui para um ambiente mais seguro, permitindo denúncias anônimas e acesso à informação.
+Como melhorias futuras, o sistema pode evoluir com novas funcionalidades e expansão do suporte.</p>
 
 
