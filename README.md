@@ -16,23 +16,23 @@ O QUE É:
 O AMPARO é um sistema web onde o aluno pode registrar denúncias de forma simples, descrevendo o que aconteceu com suas próprias palavras.
 Além disso, o sistema também fornece informações educativas sobre tipos de violência e como buscar ajuda dentro e fora do campus.
 
-Funcionalidades desenvolvidas:
+FUNCIONALIDADES DESENVOLVIDAS:
 
-Página inicial com navegação
-Formulário de denúncia
-Integração com banco de dados
-Registro das denúncias
-Página de login com E-mail institucional e senha
-Campo de visualização “Minhas denúncias”
+- Página inicial com navegação,
+- Formulário de denúncia,
+- Integração com banco de dados,
+- Registro das denúncias,
+- Página de login com E-mail institucional e senha,
+- Campo de visualização “Minhas denúncias”.
 
-Tecnologias:
+TECNOLOGIAS UTILIZADAS:
 
-HTML (Para os códigos web)
-CSS (Para estilização da página)
-PHP (para processar os dados do formulário e realizar a integração com o banco de dados)
-MySQL (utilizado para armazenar as denúncias enviadas pelos usuários)
-XAMPP (Banco de dados)
-Visual Studio Code (Para desenvolver, editar e organizar os arquivos do projeto)
+- HTML (Para os códigos web),
+- CSS (Para estilização da página),
+- PHP (para processar os dados do formulário e realizar a integração com o banco de dados),
+- MySQL (utilizado para armazenar as denúncias enviadas pelos usuários),
+- XAMPP (Banco de dados),
+- Visual Studio Code (Para desenvolver, editar e organizar os arquivos do projeto).
 
 DESENVOLVIMENTO:
 
